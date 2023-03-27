@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Salário e comissão</title>
+    </head>
+    <body>
+        <div id="container">
+            <h2>Salário e comissão</h2>
+            <div>
+                Informe o salário fixo <input type="number" id="salariofixo"/>
+            </div>
+
+            <div>
+                Informe o valor de vendas <input type="number" id="valorvendas"/>
+            </div>
+
+            <div>
+                <p id="salariofinal">O salário final do funcionário é: </p>
+                <p id="comissao">A comissão das vendas é: </p>
+            </div>
+
+            <div>
+                <button onclick="calculasalario()">Calcular salário</button>
+            </div>
+        </div>
+        <script src="./scripts/script.js"></script>
+    </body>
+    </html>
