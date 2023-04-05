@@ -1,0 +1,41 @@
+#container{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 400px;
+    margin: 40px auto;
+    padding: 30px;
+}
+
+#divn1{
+    /* border: 1px solid #acacac; */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#divn2{
+    /* border: 1px solid #acacac; */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#divopcao{
+    text-align: center;
+    border-bottom: 20px;
+}
+
+#divbotao{
+    margin-top: 20px;
+    text-align: center;
+    border-bottom: 20px;
+}
+
+#divresultado{
+    border: 1px solid #acacac;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+span{
+    color:red;
+}

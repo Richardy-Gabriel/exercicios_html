@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Exercicio 5 - escolha</title>
+        <script src="./scripts.js"></script>
+        <link rel="stylesheet" href="./style.css"/>
+    </head>
+    <body>
+        <div id="container">
+            <h1>Escolha a Operação</h1>
+            <div id="divn1">
+                Número 1 <input type="number" id="n1">
+            </div>
+            <div id="divn2">
+                Número 2 <input type="number" id="n2">
+            </div>
+            <div id="divopcao">
+                Escolha uma opção: <select id="opcao">
+                    <option value="1">Média</option>
+                    <option value="2">Diferença</option>
+                    <option value="3">Produto</option>
+                    <option value="4">Divisao</option>
+                </select>
+            </div>
+            <div id="divbotao">
+                <button onclick="exe5()">Calcular</button>
+            </div>
+            <div id="divresultado">
+                <p>
+                    Resultado da Operação: <span id="resultado"></span>
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
